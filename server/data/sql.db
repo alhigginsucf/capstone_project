@@ -14,10 +14,10 @@ CREATE TABLE `forumdb`.`users` (
   UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
 
 --create users
-insert into users (firstname, lastname, username, password) values ('Bruce', 'Banner', 'TheHulk', 'test0001');
-insert into users (firstname, lastname, username, password) values ('Clark', 'Kent', 'SuperMan', 'test0002');
-insert into users (firstname, lastname, username, password) values ('Diana', 'Prince', 'WonderWoman', 'test0003');
-insert into users (firstname, lastname, username, password) values ('Tony', 'Stark', 'IronMan', 'test0004');
+insert into users (firstname, lastname, username, password) values ('FnameUser1', 'LnameUser1', 'User01', 'test12345');
+insert into users (firstname, lastname, username, password) values ('FnameUser2', 'LnameUser2', 'User02', 'test12345');
+insert into users (firstname, lastname, username, password) values ('FnameUser3', 'LnameUser3', 'User03', 'test12345');
+insert into users (firstname, lastname, username, password) values ('FnameUser4', 'LnameUser4', 'User04', 'test12345');
 
 
 
@@ -28,12 +28,15 @@ CREATE TABLE `forumdb`.`categories` (
   PRIMARY KEY (`id`),
   UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);
 
-insert into categories (category) values ("Food & Cooking");
-insert into categories (category) values ("Health & Relationships");
-insert into categories (category) values ("Hobbies & Crafts");
-insert into categories (category) values ("Home & Garden");
-insert into categories (category) values ("Pets & Animals");
-insert into categories (category) values ("Travel & Work");
+insert into categories (category) values ("Beer Styles");
+insert into categories (category) values ("HomeBrewing");
+insert into categories (category) values ("Fermentation");
+insert into categories (category) values ("Hops, Malt & Yeast");
+insert into categories (category) values ("Barrel Aging");
+insert into categories (category) values ("Cellaring");
+insert into categories (category) values ("Regional");
+insert into categories (category) values ("Wine, Mead & Ciders");
+insert into categories (category) values ("Misc.");
 
 --create questions table
 CREATE TABLE `forumdb`.`questions` (

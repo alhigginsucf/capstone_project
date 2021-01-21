@@ -18,53 +18,53 @@ export const NavData = [
         link: "/home"
     },
     {
-        title: "Explore",
-        icon: <ExploreIcon />,
+        title: "Categories",
+         
         link: "/explore"
     },
     {
-        title: "Arts & Entertainment", 
-        icon: <MovieCreationIcon />,
+        title: "Beer Styles", 
+        
         link: "/category/1"
     },
     {
-        title: "Computers & Electronics", 
-        icon: <ComputerIcon />,
+        title: "HomeBrewing", 
+        
         link: "/category/2"
     },
     {
-        title: "Finance & Business", 
-        icon: <MonetizationOnIcon />,
+        title: "Fermentation", 
+        
         link: "/category/3"
     },
     {
-        title: "Food & Cooking", 
-        icon: <FastfoodIcon />,
+        title: "Hops, Malts & Yeast", 
+        
         link: "/category/4"
     },
     {
-        title: "Health & Relationships", 
-        icon: <FavoriteBorderIcon />,
+        title: "Barrel Aging", 
+        
         link: "/category/5"
     },
     {
-        title: "Hobbies & Crafts", 
-        icon: <BrushIcon />,
+        title: "Cellaring", 
+        
         link: "/category/6"
     },
     {
-        title: "Home & Garden", 
-        icon: <DeckIcon />,
+        title: "Regional", 
+        
         link: "/category/7"
     },
     {
-        title: "Pets & Animals", 
-        icon: <PetsIcon />,
+        title: "Wine, Mead & Ciders", 
+        
         link: "/category/8"
     },
     {
-        title: "Travel & Work", 
-        icon: <FlightTakeoffIcon />,
+        title: "Misc. Beer Info", 
+        
         link: "/category/9"
     },
 ]

@@ -30,7 +30,7 @@ function NavMenu() {
                         className="main-button btn btn-primary btn-lg btn-block"
                         onClick={() => {
                             history.push('/ask')
-                        }}>Ask</button>
+                        }}>Submit Question</button>
                 </li>
             </ul>
         </div>

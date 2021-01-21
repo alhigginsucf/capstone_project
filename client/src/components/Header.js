@@ -27,7 +27,7 @@ export default function Header() {
                 <>
                     <Link className="navbar-brand" to="/home">
                         <img src={sitelogo} width="75" height="50" className="d-inline-block align-top" alt="Site logo" loading="lazy"></img>
-                        <span className="mb-0 h1">AskHow</span>
+                        <span className="mb-0 h1">TheBeerForum</span>
                     </Link>
                     <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -49,7 +49,7 @@ export default function Header() {
                 :
                 <Link className="navbar-brand" to="/">
                     <img src={sitelogo} width="75" height="50" className="d-inline-block align-top" alt="Site logo" loading="lazy"></img>
-                    <span className="mb-0 h1">AskHow</span>
+                    <span className="mb-0 h1">TheBeerForum</span>
                 </Link>
             }
         </nav>

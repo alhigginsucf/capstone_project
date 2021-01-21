@@ -19,7 +19,7 @@ export default function ExplorePage() {
         <div className="page">
             <div className="container">
             <div className="row ml-2 mb-2">
-                    <h1>Explore</h1>
+                    <h1>Topics & Categories</h1>
                 </div>
                 <div className="row">
                     <div className="col-12">
@@ -29,51 +29,51 @@ export default function ExplorePage() {
                             <div className="row">
                                 <div className="col-4">
                                     <div className="cat-cell">
-                                        <div className="nav-link" activeclassname="active" onClick={() => history.push('/category/1')}> <MovieCreationIcon /> Arts & Entertainment</div>
+                                        <div className="nav-link" activeclassname="active" onClick={() => history.push('/category/1')}>  Beer Styles</div>
                                     </div>
                                 </div>
                                 <div className="col-4">
                                     <div className="cat-cell">
-                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/2')}><ComputerIcon /> Computers & Electronics </li>
+                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/2')}> HomeBrewing </li>
                                     </div>
                                 </div>
                                 <div className="col-4">
                                     <div className="cat-cell">
-                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/3')}><MonetizationOnIcon /> Finance & Business </li>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="row">
-                                <div className="col-4">
-                                    <div className="cat-cell">
-                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/4')}><FastfoodIcon /> Food & Cooking </li>
-                                    </div>
-                                </div>
-                                <div className="col-4">
-                                    <div className="cat-cell">
-                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/5')}><FavoriteBorderIcon /> Health & Relationships </li>
-                                    </div>
-                                </div>
-                                <div className="col-4">
-                                    <div className="cat-cell">
-                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/6')}><BrushIcon /> Hobbies & Crafts </li>
+                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/3')}> Fermentation </li>
                                     </div>
                                 </div>
                             </div>
                             <div className="row">
                                 <div className="col-4">
                                     <div className="cat-cell">
-                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/7')}><DeckIcon /> Home & Garden </li>
+                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/4')}> Hops, Malts & Yeast </li>
                                     </div>
                                 </div>
                                 <div className="col-4">
                                     <div className="cat-cell">
-                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/8')}><PetsIcon /> Pets & Animals </li>
+                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/5')}> Barrel Aging </li>
                                     </div>
                                 </div>
                                 <div className="col-4">
                                     <div className="cat-cell">
-                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/9')}><FlightTakeoffIcon /> Travel & Work </li>
+                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/6')}> Cellaring </li>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-4">
+                                    <div className="cat-cell">
+                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/7')}> Regional </li>
+                                    </div>
+                                </div>
+                                <div className="col-4">
+                                    <div className="cat-cell">
+                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/8')}> Wine, Mead & Ciders </li>
+                                    </div>
+                                </div>
+                                <div className="col-4">
+                                    <div className="cat-cell">
+                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/9')}> Misc. </li>
                                     </div>
                                 </div>
                             </div>

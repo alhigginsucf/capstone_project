@@ -15,15 +15,15 @@ export default function FrontPage() {
                         <div id="title">
                             <div className="row justify-content-center">
                                 <img src={sitelogo} width="75" height="50" className="d-inline-block align-top" alt="Site logo" loading="lazy"></img>
-                                <h1>AskHow</h1>
+                                <h1>TheBeerForum</h1>
                             </div>
                         </div>
                         <div id="solgan">
                             <div className="row justify-content-center">
-                                <h2>You ask, they answer.</h2>
+                                <h2>Beer Lovers Rejoice!</h2>
                             </div>
                             <div className="row justify-content-center">
-                                <h2>Answers to life's questions.</h2>
+                                <h3>The #1 Forum for Brewing Related Questions</h3>
                             </div>
                         </div>
                         <div id="landing-nav">
