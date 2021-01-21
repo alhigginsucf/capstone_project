@@ -1,14 +1,6 @@
 import React from 'react'
 import { useHistory, Link } from 'react-router-dom';
-import MovieCreationIcon from '@material-ui/icons/MovieCreation';
-import ComputerIcon from '@material-ui/icons/Computer';
-import MonetizationOnIcon from '@material-ui/icons/MonetizationOn';
-import FastfoodIcon from '@material-ui/icons/Fastfood';
-import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder';
-import BrushIcon from '@material-ui/icons/Brush';
-import DeckIcon from '@material-ui/icons/Deck';
-import PetsIcon from '@material-ui/icons/Pets';
-import FlightTakeoffIcon from '@material-ui/icons/FlightTakeoff';
+
 
 export default function ExplorePage() {
 
@@ -73,7 +65,7 @@ export default function ExplorePage() {
                                 </div>
                                 <div className="col-4">
                                     <div className="cat-cell">
-                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/9')}> Misc. </li>
+                                        <li className="nav-link" activeclassname="active" onClick={() => history.push('/category/9')}> Misc. Beer Info </li>
                                     </div>
                                 </div>
                             </div>

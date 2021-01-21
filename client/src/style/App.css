@@ -76,7 +76,7 @@
   }
   
   .nav-link:hover {
-    color: #1da1f2;
+    color: #fff;
   }
   
   .active {
@@ -115,7 +115,7 @@
     margin: 0;
     display: flex;
     flex-direction: row;
-    color: lightgray;
+    color: #fff;
     justify-content: center;
     align-items: center;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",

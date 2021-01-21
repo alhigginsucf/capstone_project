@@ -1,5 +1,6 @@
 import React from 'react'
 import HomeIcon from '@material-ui/icons/Home';
+import EmojiPeopleSharpIcon from '@material-ui/icons/EmojiPeopleSharp';
 import ExploreIcon from '@material-ui/icons/Explore';
 import MovieCreationIcon from '@material-ui/icons/MovieCreation';
 import ComputerIcon from '@material-ui/icons/Computer';
@@ -58,7 +59,7 @@ export const NavData = [
         link: "/category/7"
     },
     {
-        title: "Wine, Mead & Ciders", 
+        title: "Wines, Meads & Ciders", 
         
         link: "/category/8"
     },

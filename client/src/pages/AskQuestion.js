@@ -117,15 +117,15 @@ export default function AskQuestion() {
                                 <select className="form-control" id="Category" value={category} onChange={(e) => {
                                     setCategory(e.target.value);
                                 }}>
-                                    <option value="1">Arts & Entertainment</option>
-                                    <option value="2">Computers & Electronics</option>
-                                    <option value="3">Finance & Business</option>
-                                    <option value="4">Food & Cooking</option>
-                                    <option value="5">Health & Relationships</option>
-                                    <option value="6">Hobbies & Crafts</option>
-                                    <option value="7">Home & Garden</option>
-                                    <option value="8">Pets & Animals</option>
-                                    <option value="9">Travel & Work</option>
+                                    <option value="1">Beer Styles</option>
+                                    <option value="2">HomeBrewing</option>
+                                    <option value="3">Fermentation</option>
+                                    <option value="4">Hops, Malts & Yeast</option>
+                                    <option value="5">Barrel Aging</option>
+                                    <option value="6">Cellaring</option>
+                                    <option value="7">Regional</option>
+                                    <option value="8">Wines, Meads & Ciders</option>
+                                    <option value="9">Misc. Beer Info</option>
                                 </select>
                             </div>
                             <div className="form-group">

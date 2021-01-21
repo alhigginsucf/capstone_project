@@ -2,6 +2,7 @@ import React from 'react'
 import '../style/App.css'
 import { NavData } from './NavData'
 import { useHistory, withRouter, Link } from 'react-router-dom';
+import EmojiPeopleSharpIcon from '@material-ui/icons/EmojiPeopleSharp';
 
 function NavMenu() {
     let history = useHistory();
@@ -30,7 +31,7 @@ function NavMenu() {
                         className="main-button btn btn-primary btn-lg btn-block"
                         onClick={() => {
                             history.push('/ask')
-                        }}>Submit Question</button>
+                        }}><EmojiPeopleSharpIcon />Submit Question</button>
                 </li>
             </ul>
         </div>
