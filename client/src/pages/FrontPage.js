@@ -4,7 +4,7 @@ import logo from '../images/logo.png'
 
 export default function FrontPage() {
 
-    // AskHow logo
+    // site logo
     const sitelogo = logo
 
     return (

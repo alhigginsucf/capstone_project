@@ -8,11 +8,10 @@ import userRoutes from './api/Users.js'
 import questionRoutes from './api/Questions.js'
 import answerRoutes from './api/Answers.js'
 
-// Constants
+
 const app = express();
 const port = 3001;
 
-// Middleware
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
@@ -36,12 +35,12 @@ app.use(
 );
 
 
-// Listener
+
 app.listen(port, () => {
     console.log('Listening on port ' + port)
 });
 
-// Routes
+
 app.use('/user', userRoutes);
 app.use('/question', questionRoutes);
 app.use('/answer', answerRoutes);

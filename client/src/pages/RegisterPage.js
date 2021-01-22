@@ -69,7 +69,7 @@ export default function Register() {
                                 <h1>Register</h1>
                             </div>
                             <div className="row justify-content-center mr-5 pr-5">
-                                <h5 className="mr-5 pr-4">Let's create an account:</h5>
+                                <h5 className="mr-5 pr-4">Create an account below:</h5>
                             </div>
                             <div className="form">
                                 <form>

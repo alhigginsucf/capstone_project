@@ -51,7 +51,6 @@ export default function QuestionEdit() {
 
     // delete question
     const deleteQuestion = (id) => {
-        // Prompt "Are you sure you want to delete this question"
         Axios.delete(`/question/delete/${id}`);
         history.push(`/category/${question.categoryid}`)
     };

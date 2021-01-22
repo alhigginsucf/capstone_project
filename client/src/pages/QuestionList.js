@@ -48,7 +48,7 @@ export default function QuestionList(props) {
             <div className="container ">
                 {hideList ?
                     <div className="row ml-2 mb-2 justify-content-center">
-                        <h3>There are no questions asked in this category</h3>
+                        <h3>Please feel free to add a question into this category</h3>
                     </div> :
                     <div className="row ml-2 mb-2">
                         <h1>{category}</h1>

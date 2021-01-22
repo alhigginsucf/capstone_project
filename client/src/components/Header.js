@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import '../style/App.css';
 import { useHistory, Link } from 'react-router-dom';
 import logo from '../images/logo.png'
@@ -9,7 +9,7 @@ import { useSelector, useDispatch } from 'react-redux'
 
 export default function Header() {
 
-    // AskHow logo
+    //site logo
     const sitelogo = logo
 
     // route params

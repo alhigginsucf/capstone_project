@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect } from 'react';
 import './style/App.css'
 import { BrowserRouter, Switch, Route, Redirect } from 'react-router-dom';
 import Axios from 'axios'
@@ -12,7 +12,7 @@ import HomePage from './pages/HomePage';
 import LoginPage from './pages/LoginPage';
 import Register from './pages/RegisterPage';
 import FrontPage from './pages/FrontPage';
-import { useSelector, useDispatch } from 'react-redux'
+import { useSelector } from 'react-redux'
 import ProtectedRoute from './components/ProtectedRoute';
 
 export default function App() {
