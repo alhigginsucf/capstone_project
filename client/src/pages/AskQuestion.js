@@ -96,7 +96,7 @@ export default function AskQuestion() {
                             <div className="form-group">
                                 <label htmlFor="questiontitle">Title</label>
                                 <input type="text" className="form-control" id="questiontitle" maxLength="300"
-                                    placeholder="Summarize your question..." required
+                                    placeholder="Enter title here..." required
                                     ref={titleRef} onChange={(e) => {
                                         setTitle(e.target.value);
                                     }} />
@@ -105,7 +105,7 @@ export default function AskQuestion() {
                             <div className="form-group">
                                 <label htmlFor="question">Question</label>
                                 <textarea className="form-control" id="quesiton" rows="3" maxLength="2000"
-                                    placeholder="Describe your question in detail..." required
+                                    placeholder="Ask your question here..." required
                                     onKeyDown={handleKeyDown}
                                     ref={bodyRef} onChange={(e) => {
                                         setBody(e.target.value);

@@ -3,7 +3,7 @@ import '../style/App.css'
 import Axios from 'axios'
 import { useHistory } from 'react-router-dom'
 import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer';
-import ThumbUpIcon from '@material-ui/icons/ThumbUp';
+import GradeIcon from '@material-ui/icons/Grade';
 
 export default function HomePage() {
 
@@ -68,7 +68,7 @@ export default function HomePage() {
                                                     <span> <QuestionAnswerIcon /> Answer</span>
                                                 </div>
                                                 <div className="card-button right" onClick={() => { voteQuestion(val.id) }}>
-                                                    <span ><ThumbUpIcon /> {val.votes}</span>
+                                                    <span ><GradeIcon /> {val.votes}</span>
                                                 </div>
                                             </div>
                                         </div>

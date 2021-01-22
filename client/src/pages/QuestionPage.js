@@ -3,7 +3,7 @@ import '../style/App.css'
 import Axios from 'axios'
 import { useParams, useHistory, useLocation } from 'react-router-dom'
 import QuestionAnswerIcon from '@material-ui/icons/QuestionAnswer';
-import ThumbUpIcon from '@material-ui/icons/ThumbUp';
+import GradeIcon from '@material-ui/icons/Grade';
 import $ from 'jquery'
 import { useSelector } from 'react-redux'
 
@@ -153,7 +153,7 @@ export default function QuestionPage() {
                                     <span> <QuestionAnswerIcon /> Answer</span>
                                 </div>
                                 <div className="card-button right" onClick={(e) => { voteQuestion(question.id) }}>
-                                    <span ><ThumbUpIcon /> {question.votes}</span>
+                                    <span ><GradeIcon /> {question.votes}</span>
                                 </div>
                             </div>
                         </div>
@@ -165,7 +165,7 @@ export default function QuestionPage() {
                             <div className="form-group">
                                 <label htmlFor="answer">Answer</label>
                                 <textarea className="form-control" id="answer" rows="3" maxLength="500"
-                                    placeholder="Provide a detailed answer..."
+                                    placeholder="Provide an answer here..."
                                     onKeyDown={handleKeyDown}
                                     ref={bodyRef} onChange={(e) => {
                                         setBody(e.target.value);
